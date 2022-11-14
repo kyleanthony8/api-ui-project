@@ -17,7 +17,8 @@ function Search() {
   return (
     <FormStyle onSubmit={submitHandler}>
       <div>
-        <FaSearch></FaSearch>
+        <FaSearch>
+        </FaSearch>
         <input
           onChange={(e) => setInput(e.target.value)}
           type="text"
